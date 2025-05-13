@@ -11,7 +11,7 @@ cart.forEach((cartItem) => {
     let matchingProduct;
 
     products.forEach((product) => {
-        if (product.id === productId) {
+        if (product.id == productId) {
             matchingProduct = product;
         }
     });
@@ -34,7 +34,9 @@ cart.forEach((cartItem) => {
                     </div>
                     <div class="product-quantity">
                         <span>Quantity: <span class="quantity-label">${cartItem.quantity}</span>
+
                         <span class="update-quantity-link link-primary">Update</span>
+
                         <span class="delete-quantity-link link-primary js-delete-link" data-product-id="${matchingProduct.id}">Delete</span>
                     </div>
                 </div>
@@ -74,7 +76,7 @@ cart.forEach((cartItem) => {
 document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
 
 document.querySelectorAll('.js-delete-link').forEach((link) => {
-    link.addEventListener('clcik', () => {
+    link.addEventListener('click', () => {
         const productId = link.dataset.productId;
         removeFromCart(productId);
 
