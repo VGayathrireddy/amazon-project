@@ -33,33 +33,27 @@ The project focuses on strengthening frontend development skills and JavaScript 
 amazon-project/
 
 │
-
 ├── icons/
-
 ├── images/
-
 ├── js/
-
 ├── style/
-
 ├── orders.html
-
 ├── amazon.html
-
 ├── checkout.html
-
 ├── tracking.html
-
 
 ---
 
-## ⚙️ How to Run Locally
+### ⚙️ How to Run Locally
+
 
 # Clone repository
 git clone https://github.com/VGayathrireddy/amazon-project.git
 
+
 # Open project folder
-cd amazon-clone
+cd amazon-project
+
 
 # Run frontend
 Open index.html in browser
@@ -83,7 +77,7 @@ No backend setup required.
 
 ### 👩‍💻 Author
 
-"Gowthami Reddy"
+# Gowthami Reddy
 
 Aspiring Full Stack Developer
 
