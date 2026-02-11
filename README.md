@@ -1,4 +1,4 @@
-### Amazon Clone Project
+# Amazon Clone Project
 To improve Frontend Technologies knowledge
 
 This project is a frontend Amazon clone built using HTML, CSS, and JavaScript.  
@@ -32,35 +32,41 @@ The project focuses on strengthening frontend development skills and JavaScript 
 
 amazon-project/
 
-│
 ├── icons/
+
 ├── images/
+
 ├── js/
+
 ├── style/
+
 ├── orders.html
+
 ├── amazon.html
+
 ├── checkout.html
+
 ├── tracking.html
 
 ---
 
-### ⚙️ How to Run Locally
+## ⚙️ How to Run Locally
 
 
-# Clone repository
+### Clone repository
 git clone https://github.com/VGayathrireddy/amazon-project.git
 
 
-# Open project folder
+### Open project folder
 cd amazon-project
 
 
-# Run frontend
+### Run frontend
 Open index.html in browser
 
 No backend setup required.
 
-### 🎯 Future Improvements
+## 🎯 Future Improvements
 
 - User authentication
 
@@ -75,9 +81,9 @@ No backend setup required.
 - Admin panel
 
 
-### 👩‍💻 Author
+# 👩‍💻 Author
 
-# Gowthami Reddy
+### Gowthami Reddy
 
 Aspiring Full Stack Developer
 
